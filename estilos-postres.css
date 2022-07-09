@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+body{
+    font-family: "Merienda";
+    background: url(fondo-reposteria.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul .postres{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pasteles{
+    justify-content: space-between;
+    
+}
+
+.pasteles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px 20px;
+}
+
+.pos{
+    background: url(fondo_chispitas.jpg);
+    padding: 15px;
+}
+
+.pos:hover{
+    transform: scale(1.15);
+}
+

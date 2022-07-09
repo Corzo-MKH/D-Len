@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+body{
+    font-family: "Merienda";
+    background: url(fondo-reposteria.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
